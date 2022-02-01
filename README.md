@@ -1,6 +1,6 @@
 # Deep Learning in Python
 
-This is the repository for D-Lab’s six-hour Introduction to Deep Learning in Python workshop. [View the associated slides here](). **FILLME**
+This is the repository for D-Lab’s six-hour Introduction to Deep Learning in Python workshop. [View the associated slides here](https://docs.google.com/presentation/d/1YiSzZk6FazAJV3r8QzdRbB5Yc6TSENsInSWMVuu7tR0/edit?usp=sharing).
 
 [![Binder]() **FILLME**
 
