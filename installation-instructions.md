@@ -28,17 +28,28 @@ There are two options to get started on this workshop:
 - Execute the following lines of code one at a time (note that this may take a while...):
 ```
 conda create --name pydeeplearning python=3.9 keras=2.6 matplotlib=3.4 numpy=1.21 jupyterlab ipykernel
+```
+_Creates a conda environment called pydeeplearning with only the essential packages for our workshop. You will need to reply `y` to allow installation._
 
+```
 conda activate pydeeplearning
+```
+_Activate the environment._
 
+```
 python -m ipykernel install --user --name pydeeplearning
+```
+_Creates a kernel so that we can use this python environment in our Jupyter notebook._ 
 
+```
 conda install -c conda-forge tensorflow
 ```
+_Installs tensorflow, the backend for Keras. This may take a while!_
+
 - Launch Jupyter Notebook, navigate to the repository you downloaded, and open up your notebook.
-- In the toolbar below Jupyter logo go to Kernel > change Kernel > pydeeplearning
+- In the toolbar below the Jupyter logo go to Kernel > change Kernel > pydeeplearning
 - You are set to go!
 
 Why do we need to need to do all this conda stuff? 
 
-Conda is a package manager, and tensorflow/keras dependencies can get pretty crazy! In order to make thing work smoothly, we make a new conda environment and only install our essential packages.
+Conda is a package manager, which we can use to deal with versioning conflicts and dependencies for tensorflow/keras! In order for keras/tensorflow to work smoothly, we create a new isolated conda environment and only install our essential packages.
