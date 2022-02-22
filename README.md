@@ -2,8 +2,6 @@
 
 This is the repository for D-Lab’s six-hour Introduction to Deep Learning in Python workshop. [View the associated slides here](https://docs.google.com/presentation/d/1NQBDrjkM5ZdabDQFxd5_EqjXA33gt9N0-uI9viVTs6A/edit?usp=sharing).
 
-[![Binder]() **FILLME**
-
 ## Objectives
 
 Convey the basics of deep learning in Python using keras on image datasets. Students are empowered with a general grasp of deep learning, example code that they can modify, a working computational environment, and resources for further study.
@@ -20,12 +18,12 @@ Convey the basics of deep learning in Python using keras on image datasets. Stud
   * Defining moving parts of a deep learning model 
   * Understanding a loss function, activation function, and metrics
   * Performance evaluation
-* Part 1-2
+* Part 1
   * MNIST 0-9 hand-written digit example 
-  * Dogs or humans?
-* Part 3-4
-  * Pre-trained models + fine-tuning
-  * Hugging model usage
+  * Feed Foward (Vanilla) Neural Networks
+* Part 2
+  * CIFAR10 - 10 image type classification
+  * Convolutional Neural Networks
 
 ## Prerequisites
 
@@ -44,18 +42,15 @@ We assume the following background:
 
 If you are not comfortable installing packages, writing your own Python code, and using Jupyter Notebooks, this will not be a good workshop for you.
 
-## Technology requirements
-
-Please bring a laptop with the following:
-
-* [Python version](https://www.python.org/downloads/)
-**FILLME - Check needed Python version!**
-* [Jupyter Notebook](https://www.rstudio.com/products/rstudio/download/#download) is
-highly recommended but not required.
 
 ## Getting Started
 
-Be sure to [follow the install instructions]() **FILLME** to get started. This process can take about 30 minutes, so be sure to try and do this before class. 
+To get started quickly on the cloud via D-Lab's Datahub, click this link: [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
+
+If you would like to install packages locally on your computer, see [these installation instructions](https://github.com/dlab-berkeley/Python-Deep-Learning/installation-instructions.md).
+
+This process can take about 30 minutes, so be sure to try and do this before class! 
+
 ## Resources
 
 * D-Lab [Machine Learning Working Group](http://dlab.berkeley.edu/working-groups/machine-learning-working-group-0)
