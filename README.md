@@ -47,7 +47,7 @@ If you are not comfortable installing packages, writing your own Python code, an
 
 To get started quickly on the cloud via D-Lab's Datahub, click this link: [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
 
-If you would like to install packages locally on your computer, see [these installation instructions](https://github.com/dlab-berkeley/Python-Deep-Learning/installation-instructions.md).
+If you would like to install packages locally on your computer, see [the installation instructions](https://github.com/dlab-berkeley/Python-Deep-Learning/blob/development/installation-instructions.md).
 
 This process can take about 30 minutes, so be sure to try and do this before class! 
 
