@@ -14,14 +14,16 @@ It is important to get everything working before the training because we will no
 
 There are two options to get started on this workshop:
 
-### 1. Use dlab's datahub.
+### 1. Use dlab's datahub (highly recommended).
 - Click this link [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
 - That's it. You are ready!
 
 - When you want to refer to the workshop in the future, just find the folder Python-Deep-Learning within your datahub environment at <https://dlab.datahub.berkeley.edu/>
 
 ### 2. Install keras locally
-- This will take approximately 30 minutes.
+- This will take approximately 30-60 minutes.
+
+#### Windows
 - Download the Python-Deep-Learning repository here: <https://github.com/dlab-berkeley/Python-Deep-Learning>
 - Download Anaconda here: <https://www.anaconda.com/products/individual>
 - Open the Anaconda Navigaor and launch the Powershell Prompt.
@@ -31,24 +33,59 @@ conda create --name pydeeplearning python=3.9 keras=2.6 matplotlib=3.4 numpy=1.2
 ```
 _Creates a conda environment called pydeeplearning with only the essential packages for our workshop. You will need to reply `y` to allow installation._
 
+
 ```
 conda activate pydeeplearning
 ```
-_Activate the environment._
+_Activates the environment._
+
 
 ```
 python -m ipykernel install --user --name pydeeplearning
 ```
 _Creates a kernel so that we can use this python environment in our Jupyter notebook._ 
 
+
 ```
 conda install -c conda-forge tensorflow
 ```
 _Installs tensorflow, the backend for Keras. This may take a while!_
 
+
 - Launch Jupyter Notebook, navigate to the repository you downloaded, and open up your notebook.
 - In the toolbar below the Jupyter logo go to Kernel > change Kernel > pydeeplearning
 - You are set to go!
+
+#### Mac (intel chip - See below for M1 chip)
+- Download the Python-Deep-Learning repository here: <https://github.com/dlab-berkeley/Python-Deep-Learning>
+- Download Anaconda here: <https://www.anaconda.com/products/individual>
+
+```conda create -n pydeeplearning python=3.9```
+_Creates a conda environment called pydeeplearning_
+
+```conda activate pydeeplearning```
+_Activates the environment._
+
+```python -m pip install tensorflow```
+_Installs tensorflow._
+
+```python -m pip install matplotlib```
+_Installs matplotlib for plotting._
+
+```python -m pip install jupyterlab```
+_Installs jupyter notebook station._
+
+```python -m ipykernel install --user --name pydeeplearning```
+_Creates a kernel so that we can use this python environment in our Jupyter notebook._
+
+
+- Launch Jupyter Notebook, navigate to the repository you downloaded, and open up your notebook.
+- In the toolbar below the Jupyter logo go to Kernel > change Kernel > pydeeplearning
+- You are set to go!
+
+#### Mac (ARM chip)
+- I suggest following this guide: <https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-mac-metal-jul-2021.ipynb>
+- This process is quite difficult, but if successful allows you to use GPUs!
 
 Why do we need to need to do all this conda stuff? 
 

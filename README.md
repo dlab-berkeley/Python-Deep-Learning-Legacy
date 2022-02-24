@@ -27,7 +27,7 @@ Convey the basics of deep learning in Python using keras on image datasets. Stud
 
 ## Prerequisites
 
-This is an advanced level workshop. Participants should be intermediate R users and have had some prior exposure to machine learning.
+This is an advanced level workshop. Participants should be intermediate Python users and have had some prior exposure to machine learning.
 
 We assume the following background:
 
@@ -45,11 +45,11 @@ If you are not comfortable installing packages, writing your own Python code, an
 
 ## Getting Started
 
-To get started quickly on the cloud via D-Lab's Datahub, click this link: [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
+To get started quickly on the cloud via D-Lab's Datahub (highly recommended), click this link: [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
 
 If you would like to install packages locally on your computer, see [the installation instructions](https://github.com/dlab-berkeley/Python-Deep-Learning/blob/development/installation-instructions.md).
 
-This process can take about 30 minutes, so be sure to try and do this before class! 
+This process can take about 30-60 minutes, so be sure to try and do this before class! 
 
 ## Resources
 
