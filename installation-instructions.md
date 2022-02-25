@@ -64,7 +64,7 @@ _Installs tensorflow, the backend for Keras. This may take a while!_
 ```
 conda
 ```
-_Check to see if the conda command now shows argument options._
+_Check to see if the conda command is recogenized and shows argument options._
 
 __If you get the error message: `command not found: conda`__
 _Try running the following:_
