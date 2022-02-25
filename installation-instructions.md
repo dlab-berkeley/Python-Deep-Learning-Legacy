@@ -59,23 +59,49 @@ _Installs tensorflow, the backend for Keras. This may take a while!_
 #### Mac (intel chip - See below for M1 chip)
 - Download the Python-Deep-Learning repository here: <https://github.com/dlab-berkeley/Python-Deep-Learning>
 - Download Anaconda here: <https://www.anaconda.com/products/individual>
+- Open your terminal and input the following commands:
 
-```conda create -n pydeeplearning python=3.9```
+```
+conda
+```
+_Check to see if the conda command now shows argument options._
+
+__If you get the error message: `command not found: conda`__
+_Try running the following:_
+```
+/opt/anaconda3/bin/conda init zsh
+```
+_Check to see if the conda command now shows argument options._
+
+
+```
+conda create -n pydeeplearning python=3.9
+```
 _Creates a conda environment called pydeeplearning_
 
-```conda activate pydeeplearning```
+```
+conda activate pydeeplearning
+```
 _Activates the environment._
 
-```python -m pip install tensorflow```
+```
+python -m pip install tensorflow
+```
 _Installs tensorflow._
 
-```python -m pip install matplotlib```
+```
+python -m pip install matplotlib
+```
 _Installs matplotlib for plotting._
 
-```python -m pip install jupyterlab```
+```
+python -m pip install jupyterlab
+```
 _Installs jupyter notebook station._
 
-```python -m ipykernel install --user --name pydeeplearning```
+```
+python -m ipykernel install --user --name pydeeplearning
+```
 _Creates a kernel so that we can use this python environment in our Jupyter notebook._
 
 
