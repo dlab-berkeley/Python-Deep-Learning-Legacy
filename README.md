@@ -20,7 +20,7 @@ Convey the basics of deep learning in Python using keras on image datasets. Stud
   * Performance evaluation
 * Part 1
   * MNIST 0-9 hand-written digit example 
-  * Feed Foward (Vanilla) Neural Networks
+  * Feed Forward (Vanilla) Neural Networks
 * Part 2
   * CIFAR10 - 10 image type classification
   * Convolutional Neural Networks
@@ -34,11 +34,12 @@ We assume the following background:
 * D-Lab's [Python Machine Learning Fundamentals](https://github.com/dlab-berkeley/Python-Machine-Learning-Fundamentals) (6 hours) 
 * Or, comparable experience/training, assuming familiarity with:
   * Basic Python syntax
-  * statistical concepts such as mean and standard deviation
-  * Train/test splitting and cross-validation
+  * Train/validation/test splitting
   * Dataset cleaning
-  * Overfitting / underfitting
+  * Overfitting / underfitting / generalization
   * Hyperparameter customization
+  * Basic linear algebra (vector, matrix, etc.)
+  * Basic statistics (linear regression)
 
 If you are not comfortable installing packages, writing your own Python code, and using Jupyter Notebooks, this will not be a good workshop for you.
 
