@@ -1,4 +1,4 @@
-# Installation Instructions - PythonDeep Learning
+# Installation Instructions - Python Deep Learning
 
 In order to join the workshop, please go through the following software installation steps at least a day in advance. 
 
@@ -14,7 +14,7 @@ It is important to get everything working before the training because we will no
 
 There are two options to get started on this workshop:
 
-### 1. Use dlab's datahub (highly recommended).
+### 1. Use D-Lab's datahub (highly recommended).
 - Click this link [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
 - That's it. You are ready!
 
