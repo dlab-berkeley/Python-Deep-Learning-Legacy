@@ -1,11 +1,11 @@
 # Installation Instructions - Python Deep Learning
 
-In order to join the workshop, please go through the following software installation steps at least a day in advance. 
+In order to join the workshop, please go through the following software installation steps at least a day in advance.
 
 If you run into any errors please send an email to Sean Perez (<seanperez@berkeley.edu>) for help and include:
 
-1.  Which step you’re running,  
-2.  The error message(s) (screenshot preferred), and  
+1.  Which step you’re running,
+2.  The error message(s) (screenshot preferred), and
 3.  Your operating system + Python version + Jupyter Notebook version.
 
 It is important to get everything working before the training because we will not likely have sufficient time to investigate fixes during the training itself.
@@ -15,12 +15,22 @@ It is important to get everything working before the training because we will no
 There are two options to get started on this workshop:
 
 ### 1. Use D-Lab's datahub (highly recommended).
+- If you have a berkeley.edu email account, you likely have access to dlab's datahub!
 - Click this link [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
 - That's it. You are ready!
 
 - When you want to refer to the workshop in the future, just find the folder Python-Deep-Learning within your datahub environment at <https://dlab.datahub.berkeley.edu/>
 
-### 2. Install keras locally
+
+### 2. Google Colab (recommended).
+- This option is for attendees without a berkeley.edu email account.
+- Simply open each notebook using the following links:
+    - 01-Vanilla-Neural-Networks.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dlab-berkeley/Python-Deep-Learning/blob/main/lessons/01-Vanilla-Neural-Networks.ipynb)
+    - 02-Vanilla-Convolutional-Neural-Network-Comparison.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dlab-berkeley/Python-Deep-Learning/blob/main/lessons/02-Vanilla-Convolutional-Neural-Network-Comparison.ipynb)
+    - 03-Convolutional-Neural-Networks.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dlab-berkeley/Python-Deep-Learning/blob/main/lessons/03-Convolutional-Neural-Networks.ipynb)
+
+
+### 3. Install keras locally
 - This will take approximately 30-60 minutes.
 
 #### Windows
@@ -43,7 +53,7 @@ _Activates the environment._
 ```
 python -m ipykernel install --user --name pydeeplearning
 ```
-_Creates a kernel so that we can use this python environment in our Jupyter notebook._ 
+_Creates a kernel so that we can use this python environment in our Jupyter notebook._
 
 
 ```
@@ -113,6 +123,6 @@ _Creates a kernel so that we can use this python environment in our Jupyter note
 - I suggest following this guide: <https://github.com/jeffheaton/t81_558_deep_learning/blob/master/install/tensorflow-install-mac-metal-jul-2021.ipynb>
 - This process is quite difficult, but if successful allows you to use GPUs!
 
-Why do we need to need to do all this conda stuff? 
+Why do we need to need to do all this conda stuff?
 
 Conda is a package manager, which we can use to deal with versioning conflicts and dependencies for tensorflow/keras! In order for keras/tensorflow to work smoothly, we create a new isolated conda environment and only install our essential packages.

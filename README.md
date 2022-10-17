@@ -12,14 +12,14 @@ Convey the basics of deep learning in Python using keras on image datasets. Stud
   * Jupyter Notbook
   * Keras and Tensorflow
   * Helper packages
-* What is “deep” learning? 
+* What is “deep” learning?
 * Understanding the dataset
 * Dataset splitting: training, test, cross-validation
-  * Defining moving parts of a deep learning model 
+  * Defining moving parts of a deep learning model
   * Understanding a loss function, activation function, and metrics
   * Performance evaluation
 * Part 1
-  * MNIST 0-9 hand-written digit example 
+  * MNIST 0-9 hand-written digit example
   * Feed Forward (Vanilla) Neural Networks
 * Part 2
   * CIFAR10 - 10 image type classification
@@ -31,7 +31,7 @@ This is an advanced level workshop. Participants should be intermediate Python u
 
 We assume the following background:
 
-* D-Lab's [Python Machine Learning Fundamentals](https://github.com/dlab-berkeley/Python-Machine-Learning-Fundamentals) (6 hours) 
+* D-Lab's [Python Machine Learning Fundamentals](https://github.com/dlab-berkeley/Python-Machine-Learning-Fundamentals) (6 hours)
 * Or, comparable experience/training, assuming familiarity with:
   * Basic Python syntax
   * Train/validation/test splitting
@@ -46,11 +46,18 @@ If you are not comfortable installing packages, writing your own Python code, an
 
 ## Getting Started
 
-To get started quickly on the cloud via D-Lab's Datahub (highly recommended), click this link: [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
+1. Datahub - If you are a UC Berkeley student, use D-Lab's Datahub (highly recommended), click this link: [![Datahub](https://img.shields.io/badge/launch-datahub-blue)](https://dlab.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fdlab-berkeley%2FPython-Deep-Learning&urlpath=tree%2FPython-Deep-Learning%2F&branch=main)
 
-If you would like to install packages locally on your computer, see [the installation instructions](https://github.com/dlab-berkeley/Python-Deep-Learning/blob/development/installation-instructions.md).
+2. Google Colab - If you are not a UC Berkeley student, use the following links to open up each Jupyter Notebook in a Google Colab session:
 
-This process can take about 30-60 minutes, so be sure to try and do this before class! 
+    - 01-Vanilla-Neural-Networks.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dlab-berkeley/Python-Deep-Learning/blob/main/lessons/01-Vanilla-Neural-Networks.ipynb)
+    - 02-Vanilla-Convolutional-Neural-Network-Comparison.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dlab-berkeley/Python-Deep-Learning/blob/main/lessons/02-Vanilla-Convolutional-Neural-Network-Comparison.ipynb)
+    - 03-Convolutional-Neural-Networks.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dlab-berkeley/Python-Deep-Learning/blob/main/lessons/03-Convolutional-Neural-Networks.ipynb)
+
+
+3. If you would like to install packages locally on your computer, see [the installation instructions](https://github.com/dlab-berkeley/Python-Deep-Learning/blob/development/installation-instructions.md).
+
+    - This process can take about 30-60 minutes, so be sure to try and do this before class!
 
 ## Resources
 
@@ -63,7 +70,7 @@ This process can take about 30-60 minutes, so be sure to try and do this before 
     * [See this](https://developers.google.com/machine-learning/crash-course/fitter/graph) sweet interactive learning rate tool
     * [Google seedbank examples](https://tools.google.com/seedbank/seeds)
     * [DeepLearning.ai](https://www.deeplearning.ai/)
-    
+
 * Workshops
     * [Nvidia's Modeling Time Series Data with Recurrent Neural Networks in Keras](https://courses.nvidia.com/courses/course-v1:DLI+L-HX-05+V1/about)
 
@@ -82,8 +89,8 @@ This process can take about 30-60 minutes, so be sure to try and do this before 
 
 * Books
     * F. Chollet and J.J. Allaire - [Deep Learning with Python](https://tanthiamhuat.files.wordpress.com/2018/03/deeplearningwithpython.pdf)
-    * Charniak E - [Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)  
+    * Charniak E - [Introduction to Deep Learning](https://mitpress.mit.edu/books/introduction-deep-learning)
     * I. Goodfellow, Y. Bengio, A. Courville - [www.deeplearningbook.org](https://www.deeplearningbook.org/)
-    * Zhang et al. - [Dive into Deep Learning](http://en.diveintodeeplearning.org/) 
-    
+    * Zhang et al. - [Dive into Deep Learning](http://en.diveintodeeplearning.org/)
+
 
