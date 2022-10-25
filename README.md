@@ -91,4 +91,6 @@ If you are not comfortable installing packages, writing your own Python code, an
     * I. Goodfellow, Y. Bengio, A. Courville - [www.deeplearningbook.org](https://www.deeplearningbook.org/)
     * Zhang et al. - [Dive into Deep Learning](http://en.diveintodeeplearning.org/)
 
-
+# Contributors
+* Sean Perez
+* Pratik Sachdeva
