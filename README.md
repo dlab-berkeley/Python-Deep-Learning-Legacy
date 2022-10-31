@@ -61,8 +61,6 @@ If you are not comfortable installing packages, writing your own Python code, an
 
 ## Resources
 
-* D-Lab [Machine Learning Working Group](http://dlab.berkeley.edu/working-groups/machine-learning-working-group-0)
-
 * Massive open online courses
     * [fast.ai - Practical Deep Learning for Coders](https://course.fast.ai/)
     * [Kaggle Deep Learning](https://www.kaggle.com/learn/deep-learning)
@@ -93,4 +91,6 @@ If you are not comfortable installing packages, writing your own Python code, an
     * I. Goodfellow, Y. Bengio, A. Courville - [www.deeplearningbook.org](https://www.deeplearningbook.org/)
     * Zhang et al. - [Dive into Deep Learning](http://en.diveintodeeplearning.org/)
 
-
+# Contributors
+* Sean Perez
+* Pratik Sachdeva
